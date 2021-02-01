@@ -7,6 +7,7 @@ Basicamente esse é o código fonte do meu trabalho, espero que esteja de acordo
 *  images - imagens usadas em algum momento da aplicação
 *  models - modelos de classes, como Team, Match, Shot e User
 * routes - os arquivos responsáveis por tratar os dados enviados pelo usuário em um form
+* sql - possui apenas o arquivo exportado do banco de dados usado durante a aplicação
 * styles - arquivos de css usados em toda a aplicação
 * views - são onde as páginas se encontram no geral, exceto pelo index.php
 
