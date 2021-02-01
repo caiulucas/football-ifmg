@@ -2,7 +2,7 @@
 class Connection {
   private static $dsn = 'mysql:host=localhost;dbname=football;port=3306';
   private static $user = 'root';
-  private static $password = 'Password@12';
+  private static $password = '';
   private static $conn = null;
 
   public function __construct() {}
