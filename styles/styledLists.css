@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  color: #fff;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+table {
+  width: 75%;
+  border-collapse: collapse; 
+  background: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 32px;
+}
+
+td, th {
+  text-align: center;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #A4A7FD;
+}
+
+img {
+    display: none;
+}
+
+.photo {
+  display: unset;    
+  height: 200px;
+  width: auto;
+}
+
+.icon {
+  display: unset;    
+  height: 32px;
+  width: 32px;
+}
+
+a.styled-button {
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+
+  margin: 16px;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #5776d9;
+  color: #fff;
+  border: 2px solid #5776d9;
+  transition: 0.4s;
+}
+
+.styled-button:hover {
+  background-color: #fff;
+  color: #5776d9;
+}

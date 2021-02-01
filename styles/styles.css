@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  background-image: radial-gradient(#212121 5%, transparent 5%),
+  radial-gradient(#f4f4f4 5%, transparent 5%);
+  background-color: #4AE8B9;
+  background-position: 0 0, 50px 50px;
+  background-size: 100px 100px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items:  center;
+  background-color: #B371DE;
+  color: #fff;
+  width: 100vw;
+  margin-bottom: 32px;
+}
+
+aside {
+  display: flex;  
+  justify-content: center;
+}
+
+img {
+  width: 500px;
+}
+
+#teams-container {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 16px;
+}
+
+#inserts {
+  margin-top: 32px;
+  background-color: #000;
+  color: #39FA80;
+  font-size: 18px;
+  font-weight: bold;
+  
+  display: flex;
+  justify-content: space-around;
+}
+
+.team {
+  background: #333;
+  color: #FFF;
+  width: 250px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team + p {
+  font-size: 76px;
+  margin: auto 32px;
+  color: #ff0000;
+}
+
+.goals {
+  font-size: 18px;
+  font-weight: bold;
+}
